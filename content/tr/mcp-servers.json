@@ -1,0 +1,30 @@
+{
+  "brave-search": {
+    "name": "Brave Search MCP Sunucusu",
+    "description": "Brave Search API üzerinden web araması — ajan cevaplarını güncel bilgiyle temellendir."
+  },
+  "filesystem": {
+    "name": "Dosya Sistemi MCP Sunucusu",
+    "description": "İzin verilen klasörler içinde güvenli dosya okuma/yazma ve arama."
+  },
+  "github": {
+    "name": "GitHub MCP Sunucusu",
+    "description": "Model Context Protocol için GitHub entegrasyonu — depolar, issue'lar, pull request'ler ve kod araması."
+  },
+  "playwright": {
+    "name": "Playwright MCP Sunucusu",
+    "description": "Ajandan gerçek bir Chromium/Firefox/WebKit tarayıcı süren Microsoft resmi sunucusu."
+  },
+  "postgres": {
+    "name": "Postgres MCP Sunucusu",
+    "description": "Ajanlardan Postgres veritabanlarına salt-okunur veya okuma-yazma erişim; şema introspection dahil."
+  },
+  "puppeteer": {
+    "name": "Puppeteer MCP Sunucusu",
+    "description": "Ajanlar için başsız Chrome otomasyonu — gezinme, ekran görüntüsü, DOM inceleme."
+  },
+  "slack": {
+    "name": "Slack MCP Sunucusu",
+    "description": "Slack kanallarını oku/yaz, mesajları ara, kullanıcı ve kanal meta verisini çek."
+  }
+}
