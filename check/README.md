@@ -2,7 +2,7 @@
 
 Markdown prompts for [Claude Code](https://claude.com/claude-code) that audit
 the library. No executable code — each file tells Claude Code what to inspect
-under `content/` and how to report findings.
+under `library/` and how to report findings.
 
 ## How to run
 
@@ -32,10 +32,10 @@ Each prompt asks Claude Code to produce a report like:
 ✓ 423 files scanned
 ✗ 3 issues found
 
-content/en/agents/foo.md
+library/en/agents/foo.md
   - missing required field: description
 
-content/en/skills/bar/SKILL.md
+library/en/skills/bar/SKILL.md
   - id "bwc-skill-baz" does not match folder name "bar"
 ```
 
@@ -43,7 +43,7 @@ content/en/skills/bar/SKILL.md
 
 ## When to run
 
-- Before opening a PR that changes `content/`.
+- Before opening a PR that changes `library/`.
 - When the `validate.yml` workflow fails on a PR — run locally to iterate
   faster than waiting for CI.
 - Periodically (monthly) on `main` to catch drift from contributed PRs.

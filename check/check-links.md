@@ -7,13 +7,13 @@ This is a **read-only** check.
 
 ## Scope
 
-Every markdown file under `content/en/`:
-- `content/en/skills/**/SKILL.md`
-- `content/en/agents/*.md`
-- `content/en/commands/*.md`
-- `content/en/hooks/*.md`
+Every markdown file under `library/en/`:
+- `library/en/skills/**/SKILL.md`
+- `library/en/agents/*.md`
+- `library/en/commands/*.md`
+- `library/en/hooks/*.md`
 
-Plus every entry in `content/en/mcp-servers.json`.
+Plus every entry in `library/en/mcp-servers.json`.
 
 ## Rules
 
@@ -41,13 +41,13 @@ Two sections:
 
 ```
 Errors:
-  content/en/agents/foo.md
+  library/en/agents/foo.md
     - homepage: malformed URL "htps://example.com"
-  content/en/mcp-servers.json [entry "acme"]
+  library/en/mcp-servers.json [entry "acme"]
     - sources.github: missing scheme
 
 Warnings:
-  content/en/skills/bar/SKILL.md
+  library/en/skills/bar/SKILL.md
     - repoUrl uses http:// instead of https://
 ```
 

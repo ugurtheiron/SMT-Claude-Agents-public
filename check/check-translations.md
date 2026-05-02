@@ -6,19 +6,19 @@ check.
 ## Scope
 
 - EN source files:
-  - `content/en/skills/<slug>/SKILL.md`
-  - `content/en/agents/<slug>.md`
-  - `content/en/commands/<slug>.md`
-  - `content/en/hooks/<slug>.md`
+  - `library/en/skills/<slug>/SKILL.md`
+  - `library/en/agents/<slug>.md`
+  - `library/en/commands/<slug>.md`
+  - `library/en/hooks/<slug>.md`
 - TR translation files:
-  - `content/tr/skills/<slug>.md`
-  - `content/tr/agents/<slug>.md`
-  - `content/tr/commands/<slug>.md`
-  - `content/tr/hooks/<slug>.md`
+  - `library/tr/skills/<slug>.md`
+  - `library/tr/agents/<slug>.md`
+  - `library/tr/commands/<slug>.md`
+  - `library/tr/hooks/<slug>.md`
 
 Note: TR uses a **flat filename per skill** (not a folder). TR skill at
-`content/tr/skills/<slug>.md` corresponds to EN skill at
-`content/en/skills/<slug>/SKILL.md`.
+`library/tr/skills/<slug>.md` corresponds to EN skill at
+`library/en/skills/<slug>/SKILL.md`.
 
 ## What to check
 

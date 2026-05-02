@@ -4,13 +4,13 @@ Find duplicate resources in the library. This is a **read-only** check.
 
 ## Scope
 
-Scan every markdown file under `content/en/`:
-- `content/en/skills/**/SKILL.md`
-- `content/en/agents/*.md`
-- `content/en/commands/*.md`
-- `content/en/hooks/*.md`
+Scan every markdown file under `library/en/`:
+- `library/en/skills/**/SKILL.md`
+- `library/en/agents/*.md`
+- `library/en/commands/*.md`
+- `library/en/hooks/*.md`
 
-Plus the MCP array in `content/en/mcp-servers.json`.
+Plus the MCP array in `library/en/mcp-servers.json`.
 
 ## What counts as a duplicate
 
@@ -35,13 +35,13 @@ Group findings by class:
 ```
 Hard duplicates (same id):
   - id "bwc-agent-foo" appears in:
-      content/en/agents/foo.md
-      content/en/agents/foo-v2.md
+      library/en/agents/foo.md
+      library/en/agents/foo-v2.md
 
 Suspected name collisions (same normalized name):
   - "Code Reviewer":
-      content/en/agents/code-reviewer.md
-      content/en/skills/code-reviewer/SKILL.md
+      library/en/agents/code-reviewer.md
+      library/en/skills/code-reviewer/SKILL.md
 ```
 
 End with:

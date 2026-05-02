@@ -5,13 +5,13 @@ Verify every resource's slug follows repo conventions and that the frontmatter
 
 ## Scope
 
-Scan every markdown file under `content/en/`:
-- `content/en/skills/<slug>/SKILL.md`
-- `content/en/agents/<slug>.md`
-- `content/en/commands/<slug>.md`
-- `content/en/hooks/<slug>.md`
+Scan every markdown file under `library/en/`:
+- `library/en/skills/<slug>/SKILL.md`
+- `library/en/agents/<slug>.md`
+- `library/en/commands/<slug>.md`
+- `library/en/hooks/<slug>.md`
 
-Also check `content/tr/<type>/<slug>.md`.
+Also check `library/tr/<type>/<slug>.md`.
 
 ## Rules
 
@@ -36,7 +36,7 @@ Also check `content/tr/<type>/<slug>.md`.
    folder (`skills/` → `skill`, `agents/` → `agent`, `commands/` → `command`,
    `hooks/` → `hook`).
 
-4. **TR mirror.** If a TR file exists at `content/tr/<type>/<slug>.md`, the
+4. **TR mirror.** If a TR file exists at `library/tr/<type>/<slug>.md`, the
    EN file at the corresponding path must also exist (reuse logic from
    `check-translations.md` if helpful, but here focus only on the format).
 
@@ -45,7 +45,7 @@ Also check `content/tr/<type>/<slug>.md`.
 One line per violation:
 
 ```
-content/en/agents/Foo_Bar.md
+library/en/agents/Foo_Bar.md
   - slug "Foo_Bar" is not kebab-case
   - id "bwc-agent-foo-bar" does not match filename "Foo_Bar"
 ```

@@ -1,17 +1,17 @@
 # Check: Frontmatter completeness
 
-Audit every English resource file under `content/en/` for required YAML
+Audit every English resource file under `library/en/` for required YAML
 frontmatter fields. This is a **read-only** check — do not edit any files.
 
 ## Scope
 
 Scan these paths with Glob:
-- `content/en/skills/**/SKILL.md`
-- `content/en/agents/*.md`
-- `content/en/commands/*.md`
-- `content/en/hooks/*.md`
+- `library/en/skills/**/SKILL.md`
+- `library/en/agents/*.md`
+- `library/en/commands/*.md`
+- `library/en/hooks/*.md`
 
-Also validate `content/en/mcp-servers.json` as a JSON array.
+Also validate `library/en/mcp-servers.json` as a JSON array.
 
 ## Required fields (all markdown resources)
 
@@ -42,7 +42,7 @@ Optional but validate when present:
 
 (Type-specific fields like `tools`, `allowedTools`, `matcher` are optional.)
 
-## MCP servers (`content/en/mcp-servers.json`)
+## MCP servers (`library/en/mcp-servers.json`)
 
 Each entry in the array must have:
 
@@ -56,7 +56,7 @@ Read each file, parse the frontmatter (everything between the first pair of
 per violation:
 
 ```
-content/en/<path>
+library/en/<path>
   - <field>: <reason>
 ```
 

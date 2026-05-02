@@ -12,7 +12,7 @@ directory UI renders.
 ## Repository layout
 
 ```
-content/
+library/
   en/                         SOURCE OF TRUTH — English metadata + body
     skills/<slug>/SKILL.md
     agents/<slug>.md
@@ -33,8 +33,8 @@ workflow.
 ## Quick contribution flow
 
 1. Fork the repo.
-2. Add your resource under `content/en/<type>/<slug>/...`.
-3. (Optional) Add a Turkish translation at `content/tr/<type>/<slug>.md`.
+2. Add your resource under `library/en/<type>/<slug>/...`.
+3. (Optional) Add a Turkish translation at `library/tr/<type>/<slug>.md`.
 4. Run the checks locally — open this folder in [Claude Code](https://claude.com/claude-code) and run the prompts under `check/` (see `check/README.md`).
 5. Open a PR. The `validate` workflow will re-run the checks.
 
@@ -48,7 +48,7 @@ claude -p "$(cat check/check-frontmatter.md)"
 ```
 
 Each prompt tells Claude Code exactly what to look for and returns a pass/fail
-report. No code execution — just structured inspection of `content/`.
+report. No code execution — just structured inspection of `library/`.
 
 ## Credits
 

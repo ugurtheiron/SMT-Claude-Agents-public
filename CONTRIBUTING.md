@@ -8,11 +8,11 @@ follow the spec below.
 
 | Type         | Path                                      |
 |--------------|-------------------------------------------|
-| Skill        | `content/en/skills/<slug>/SKILL.md`       |
-| Agent        | `content/en/agents/<slug>.md`             |
-| Command      | `content/en/commands/<slug>.md`           |
-| Hook         | `content/en/hooks/<slug>.md`              |
-| MCP server   | entry inside `content/en/mcp-servers.json`|
+| Skill        | `library/en/skills/<slug>/SKILL.md`       |
+| Agent        | `library/en/agents/<slug>.md`             |
+| Command      | `library/en/commands/<slug>.md`           |
+| Hook         | `library/en/hooks/<slug>.md`              |
+| MCP server   | entry inside `library/en/mcp-servers.json`|
 
 `<slug>` must be **kebab-case** and match `^[a-z0-9][a-z0-9-]*$`.
 
@@ -53,7 +53,7 @@ source:
 
 ## Turkish translations
 
-Translations live in a **parallel tree** at `content/tr/<type>/<slug>.md`.
+Translations live in a **parallel tree** at `library/tr/<type>/<slug>.md`.
 Only `name` and `description` are translated; everything else is shared with
 the English source.
 
@@ -69,7 +69,7 @@ body, only the card/detail headline strings.
 
 ## MCP servers
 
-`content/en/mcp-servers.json` is a single JSON array. Each entry uses the same
+`library/en/mcp-servers.json` is a single JSON array. Each entry uses the same
 shape as the upstream `davepoon/buildwithclaude` MCP catalog. Fields:
 
 - `name` (required, becomes the slug)
