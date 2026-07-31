@@ -8,8 +8,8 @@ description: >-
   Automate Gmail tasks via Rube MCP (Composio): send/reply, search, labels,
   drafts, attachments. Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:gmail
 category: email
 ---
 

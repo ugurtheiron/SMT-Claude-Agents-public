@@ -1,0 +1,7 @@
+{
+  "name": "research-intelligence-team",
+  "description": "The canonical orchestrator-worker research architecture: a lead that decomposes the question, parallel searchers with explicit objectives and boundaries, compressed citation-tagged findings and a synthesized, source-checked report.",
+  "author": {
+    "name": "SafeMate AI Hub"
+  }
+}

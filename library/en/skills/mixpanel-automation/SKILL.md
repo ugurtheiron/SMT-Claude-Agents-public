@@ -9,8 +9,8 @@ description: >-
   funnels, cohorts, user profiles, JQL queries. Always search tools first for
   current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:mixpanel
 category: analytics
 ---
 

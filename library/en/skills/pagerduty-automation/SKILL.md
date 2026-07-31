@@ -9,8 +9,8 @@ description: >-
   schedules, escalation policies, and on-call rotations. Always search tools
   first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:pagerduty
 category: devops
 ---
 

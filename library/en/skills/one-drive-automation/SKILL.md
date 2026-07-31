@@ -9,8 +9,8 @@ description: >-
   permissions, and folder operations via Rube MCP (Composio). Always search
   tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:one-drive
 category: storage-docs
 ---
 

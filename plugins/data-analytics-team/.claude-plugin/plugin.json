@@ -1,0 +1,7 @@
+{
+  "name": "data-analytics-team",
+  "description": "From raw warehouse tables to a decision-ready insight report: ingestion and transforms, isolated data profiling, hypothesis-driven feature work, model training and a synthesized findings report.",
+  "author": {
+    "name": "SafeMate AI Hub"
+  }
+}

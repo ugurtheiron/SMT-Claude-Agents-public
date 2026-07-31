@@ -9,8 +9,8 @@ description: >-
   cards, manage lists, assign members, and search across boards
   programmatically.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:trello
 category: project-management
 ---
 

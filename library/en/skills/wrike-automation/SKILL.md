@@ -9,8 +9,8 @@ description: >-
   tasks/folders, manage projects, assign work, and track progress. Always search
   tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:wrike
 category: project-management
 ---
 

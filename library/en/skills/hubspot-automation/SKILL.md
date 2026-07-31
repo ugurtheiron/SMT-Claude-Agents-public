@@ -8,8 +8,8 @@ description: >-
   Automate HubSpot CRM operations (contacts, companies, deals, tickets,
   properties) via Rube MCP using Composio integration.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:hubspot
 category: crm
 ---
 

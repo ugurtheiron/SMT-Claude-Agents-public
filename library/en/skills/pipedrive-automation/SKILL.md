@@ -9,8 +9,8 @@ description: >-
   activities, notes, and pipeline management via Rube MCP (Composio). Always
   search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:pipedrive
 category: crm
 ---
 

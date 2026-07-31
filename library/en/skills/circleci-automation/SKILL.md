@@ -9,8 +9,8 @@ description: >-
   workflows/jobs, retrieve artifacts and test metadata. Always search tools
   first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:circleci
 category: devops
 ---
 

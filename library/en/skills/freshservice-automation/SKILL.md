@@ -9,8 +9,8 @@ description: >-
   tickets, bulk operations, service requests, and outbound emails. Always search
   tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:freshservice
 category: customer-support
 ---
 

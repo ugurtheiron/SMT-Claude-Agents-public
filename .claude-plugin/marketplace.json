@@ -1,0 +1,173 @@
+{
+  "name": "safemate-agents",
+  "owner": {
+    "name": "SafeMate AI Hub",
+    "url": "https://github.com/ugurtheiron"
+  },
+  "description": "Curated Claude Code multi-agent teams from the SafeMate AI Hub library",
+  "plugins": [
+    {
+      "name": "content-seo-team",
+      "source": "./plugins/content-seo-team",
+      "description": "Parallel competitor and keyword research merged into one content brief, long-form drafting, channel-native social variants and an SEO/editorial pass — a complete launch content package from a single prompt.",
+      "category": "sales-marketing",
+      "keywords": [
+        "team",
+        "content",
+        "seo",
+        "marketing",
+        "social-media"
+      ],
+      "author": {
+        "name": "SafeMate AI Hub"
+      }
+    },
+    {
+      "name": "crypto-trading-desk",
+      "source": "./plugins/crypto-trading-desk",
+      "description": "Fundamental and quantitative analysis run in deliberately separate contexts, synthesized into trade ideas with entries and invalidation levels, then stress-tested by a risk manager with veto power. Decision support only — the desk never executes trades.",
+      "category": "crypto-trading",
+      "keywords": [
+        "team",
+        "crypto",
+        "trading",
+        "risk-management",
+        "defi"
+      ],
+      "author": {
+        "name": "SafeMate AI Hub"
+      }
+    },
+    {
+      "name": "data-analytics-team",
+      "source": "./plugins/data-analytics-team",
+      "description": "From raw warehouse tables to a decision-ready insight report: ingestion and transforms, isolated data profiling, hypothesis-driven feature work, model training and a synthesized findings report.",
+      "category": "data-ai",
+      "keywords": [
+        "team",
+        "data",
+        "analytics",
+        "machine-learning",
+        "sql"
+      ],
+      "author": {
+        "name": "SafeMate AI Hub"
+      }
+    },
+    {
+      "name": "devops-sre-team",
+      "source": "./plugins/devops-sre-team",
+      "description": "Conditional incident-response chain and infrastructure build pipeline in one plugin: triage, parallel log/metric investigation, root-cause synthesis, reviewed Terraform and a prevention step so the same failure never pages twice.",
+      "category": "infrastructure-operations",
+      "keywords": [
+        "team",
+        "devops",
+        "sre",
+        "terraform",
+        "incident-response",
+        "cloud"
+      ],
+      "author": {
+        "name": "SafeMate AI Hub"
+      }
+    },
+    {
+      "name": "full-stack-dev-team",
+      "source": "./plugins/full-stack-dev-team",
+      "description": "Six specialists that take a feature from API contract to deployed code: backend architecture, database schema, frontend build, generated test suites, an independent review gate and CI/CD wiring — installed together as one Claude Code plugin.",
+      "category": "development-architecture",
+      "keywords": [
+        "team",
+        "full-stack",
+        "backend",
+        "frontend",
+        "testing",
+        "ci-cd"
+      ],
+      "author": {
+        "name": "SafeMate AI Hub"
+      }
+    },
+    {
+      "name": "mcp-engineering-team",
+      "source": "./plugins/mcp-engineering-team",
+      "description": "Design, build, review and conformance-test Model Context Protocol servers: tool-surface architecture, scaffolded implementation, protocol and description-quality review, and live-client integration tests behind a compliance gate.",
+      "category": "development-architecture",
+      "keywords": [
+        "team",
+        "mcp",
+        "protocol",
+        "tooling",
+        "testing"
+      ],
+      "author": {
+        "name": "SafeMate AI Hub"
+      }
+    },
+    {
+      "name": "podcast-production-team",
+      "source": "./plugins/podcast-production-team",
+      "description": "Audio in, publish package out: transcription in an isolated context, chapter and quote extraction, SEO titles, show notes and tags, with an audio quality check — the textbook use of subagent context isolation.",
+      "category": "specialized-domains",
+      "keywords": [
+        "team",
+        "podcast",
+        "transcription",
+        "content",
+        "seo"
+      ],
+      "author": {
+        "name": "SafeMate AI Hub"
+      }
+    },
+    {
+      "name": "product-launch-team",
+      "source": "./plugins/product-launch-team",
+      "description": "Market sizing and business case built in parallel, merged into one opportunity brief that drives UX concepts, launch messaging and sales outreach — so marketing and sales ship a single consistent message on launch day.",
+      "category": "business-finance",
+      "keywords": [
+        "team",
+        "product",
+        "launch",
+        "marketing",
+        "sales",
+        "ux"
+      ],
+      "author": {
+        "name": "SafeMate AI Hub"
+      }
+    },
+    {
+      "name": "research-intelligence-team",
+      "source": "./plugins/research-intelligence-team",
+      "description": "The canonical orchestrator-worker research architecture: a lead that decomposes the question, parallel searchers with explicit objectives and boundaries, compressed citation-tagged findings and a synthesized, source-checked report.",
+      "category": "specialized-domains",
+      "keywords": [
+        "team",
+        "research",
+        "orchestration",
+        "synthesis",
+        "citations"
+      ],
+      "author": {
+        "name": "SafeMate AI Hub"
+      }
+    },
+    {
+      "name": "security-audit-team",
+      "source": "./plugins/security-audit-team",
+      "description": "Parallel read-only auditors for codebase, API surface and MCP configuration, a log-mining detective, and an independent verifier that kills false positives — producing a severity-ranked remediation report.",
+      "category": "quality-security",
+      "keywords": [
+        "team",
+        "security",
+        "audit",
+        "owasp",
+        "code-review"
+      ],
+      "author": {
+        "name": "SafeMate AI Hub"
+      }
+    }
+  ]
+}

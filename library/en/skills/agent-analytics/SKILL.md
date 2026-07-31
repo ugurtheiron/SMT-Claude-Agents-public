@@ -10,10 +10,8 @@ description: >-
   your agent knows HOW to grow, not just what to track.
 category: analytics
 requires:
-  env:
-    - AGENT_ANALYTICS_API_KEY
-  bins:
-    - npx
+  - tool:npx
+  - connection:agent-analytics
 ---
 
 # Agent Analytics — Analytics your agent can actually use

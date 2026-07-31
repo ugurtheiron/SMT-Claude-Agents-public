@@ -4,6 +4,11 @@ Markdown prompts for [Claude Code](https://claude.com/claude-code) that audit
 the library. No executable code — each file tells Claude Code what to inspect
 under `library/` and how to report findings.
 
+> **Note:** the structural checks (frontmatter, ids, parity, teams,
+> marketplace) are enforced deterministically by `npm run validate`
+> (`scripts/validate.mjs`) and CI. These prompts are the optional deeper
+> editorial layer on top — link quality, duplicate *names*, wording.
+
 ## How to run
 
 From the repo root, in a Claude Code session:
@@ -43,9 +48,10 @@ library/en/skills/bar/SKILL.md
 
 ## When to run
 
-- Before opening a PR that changes `library/`.
-- When the `validate.yml` workflow fails on a PR — run locally to iterate
-  faster than waiting for CI.
+- Before opening a PR that changes `library/` (after `npm run validate`
+  passes — the prompts catch what the structural validator can't).
+- When the `validate.yml` workflow fails on a PR, run `npm run validate`
+  locally to iterate faster than waiting for CI.
 - Periodically (monthly) on `main` to catch drift from contributed PRs.
 
 ## Adding a new check

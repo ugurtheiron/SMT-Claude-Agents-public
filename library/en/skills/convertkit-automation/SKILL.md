@@ -9,8 +9,8 @@ description: >-
   tags, broadcasts, and broadcast stats. Always search tools first for current
   schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:convertkit
 category: email
 ---
 

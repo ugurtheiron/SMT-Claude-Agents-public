@@ -9,8 +9,8 @@ description: >-
   inspect campaign messages, track tags, and monitor send jobs. Always search
   tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:klaviyo
 category: email
 ---
 

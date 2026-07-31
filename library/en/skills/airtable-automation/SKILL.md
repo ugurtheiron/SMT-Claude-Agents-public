@@ -8,8 +8,8 @@ description: >-
   Automate Airtable tasks via Rube MCP (Composio): records, bases, tables,
   fields, views. Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:airtable
 category: storage-docs
 ---
 

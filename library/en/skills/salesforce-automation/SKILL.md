@@ -8,8 +8,8 @@ description: >-
   Automate Salesforce tasks via Rube MCP (Composio): leads, contacts, accounts,
   opportunities, SOQL queries. Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:salesforce
 category: crm
 ---
 

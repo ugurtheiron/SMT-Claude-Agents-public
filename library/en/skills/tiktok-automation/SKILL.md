@@ -9,8 +9,8 @@ description: >-
   photos, manage content, and view user profiles/stats. Always search tools
   first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:tiktok
 category: social-media
 ---
 

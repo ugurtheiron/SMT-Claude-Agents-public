@@ -1,0 +1,7 @@
+{
+  "name": "crypto-trading-desk",
+  "description": "Fundamental and quantitative analysis run in deliberately separate contexts, synthesized into trade ideas with entries and invalidation levels, then stress-tested by a risk manager with veto power. Decision support only — the desk never executes trades.",
+  "author": {
+    "name": "SafeMate AI Hub"
+  }
+}

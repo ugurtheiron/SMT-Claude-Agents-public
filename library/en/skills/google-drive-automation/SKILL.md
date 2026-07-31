@@ -9,8 +9,8 @@ description: >-
   organize) via Rube MCP (Composio). Upload/download files, manage folders,
   share with permissions, and search across drives programmatically.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:google-drive
 category: storage-docs
 ---
 

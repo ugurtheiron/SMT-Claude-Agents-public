@@ -9,8 +9,8 @@ description: >-
   contacts, manage leads, and convert leads. Always search tools first for
   current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:zoho-crm
 category: crm
 ---
 

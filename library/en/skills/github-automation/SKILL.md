@@ -9,8 +9,8 @@ description: >-
   permissions via Rube MCP (Composio). Manage code workflows, review PRs, search
   code, and handle deployments programmatically.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:github
 category: devops
 ---
 

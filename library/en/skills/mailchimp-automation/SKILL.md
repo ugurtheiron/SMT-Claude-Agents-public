@@ -9,8 +9,8 @@ description: >-
   subscribers, segments, and analytics via Rube MCP (Composio). Always search
   tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:mailchimp
 category: email
 ---
 

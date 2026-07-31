@@ -9,8 +9,8 @@ description: >-
   storage, edge functions, and SQL execution via Rube MCP (Composio). Always
   search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:supabase
 category: development-code
 ---
 

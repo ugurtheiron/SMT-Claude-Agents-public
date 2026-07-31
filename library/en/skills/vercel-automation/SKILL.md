@@ -9,8 +9,8 @@ description: >-
   DNS, env vars, projects, and teams. Always search tools first for current
   schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:vercel
 category: devops
 ---
 

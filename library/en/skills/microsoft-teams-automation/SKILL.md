@@ -9,8 +9,8 @@ description: >-
   channels, create meetings, handle chats, and search messages. Always search
   tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:microsoft-teams
 category: communication
 ---
 

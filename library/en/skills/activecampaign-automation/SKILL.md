@@ -9,8 +9,8 @@ description: >-
   list subscriptions, automation enrollment, and tasks. Always search tools
   first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:activecampaign
 category: email
 ---
 

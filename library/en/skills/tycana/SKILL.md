@@ -9,8 +9,7 @@ description: >-
   tasks from conversation, plans your day, tracks patterns, and gives
   personalized recommendations that improve over time.
 requires:
-  mcp:
-    - tycana
+  - mcp:tycana
 category: project-management
 ---
 

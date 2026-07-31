@@ -9,8 +9,8 @@ description: >-
   benefits, dependents, employee updates. Always search tools first for current
   schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:bamboohr
 category: business-productivity
 ---
 

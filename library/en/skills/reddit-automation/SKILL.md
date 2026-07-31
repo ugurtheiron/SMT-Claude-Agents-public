@@ -9,8 +9,8 @@ description: >-
   posts, manage comments, and browse top content. Always search tools first for
   current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:reddit
 category: social-media
 ---
 

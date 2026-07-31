@@ -9,8 +9,8 @@ description: >-
   manage groups, page views, aliases, batch operations. Always search tools
   first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:segment
 category: analytics
 ---
 

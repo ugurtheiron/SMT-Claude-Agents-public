@@ -9,8 +9,8 @@ description: >-
   campaigns, create/edit templates, track senders, and monitor campaign
   performance. Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:brevo
 category: email
 ---
 

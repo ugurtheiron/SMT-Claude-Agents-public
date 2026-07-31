@@ -9,8 +9,8 @@ description: >-
   participant tracking via Rube MCP (Composio). Always search tools first for
   current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:zoom
 category: automation
 ---
 

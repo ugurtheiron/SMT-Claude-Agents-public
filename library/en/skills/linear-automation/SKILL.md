@@ -8,8 +8,8 @@ description: >-
   Automate Linear tasks via Rube MCP (Composio): issues, projects, cycles,
   teams, labels. Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:linear
 category: project-management
 ---
 

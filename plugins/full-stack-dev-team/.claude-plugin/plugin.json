@@ -1,0 +1,7 @@
+{
+  "name": "full-stack-dev-team",
+  "description": "Six specialists that take a feature from API contract to deployed code: backend architecture, database schema, frontend build, generated test suites, an independent review gate and CI/CD wiring — installed together as one Claude Code plugin.",
+  "author": {
+    "name": "SafeMate AI Hub"
+  }
+}

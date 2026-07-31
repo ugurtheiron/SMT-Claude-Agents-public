@@ -9,8 +9,8 @@ description: >-
   accounts/properties, funnels, pivots, key events. Always search tools first
   for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:google-analytics
 category: analytics
 ---
 
