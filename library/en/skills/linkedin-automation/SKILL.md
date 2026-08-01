@@ -9,8 +9,8 @@ description: >-
   company info, comments, and image uploads. Always search tools first for
   current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:linkedin
 category: social-media
 ---
 

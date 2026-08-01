@@ -9,8 +9,8 @@ description: >-
   alerts, track releases, monitor projects and teams. Always search tools first
   for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:sentry
 category: devops
 ---
 

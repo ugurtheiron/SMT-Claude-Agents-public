@@ -9,8 +9,8 @@ description: >-
   calls/SMS, handle tasks, and track notes. Always search tools first for
   current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:close
 category: crm
 ---
 

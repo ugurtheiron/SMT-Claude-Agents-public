@@ -9,8 +9,8 @@ description: >-
   projects, user profiles, annotations. Always search tools first for current
   schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:posthog
 category: devops
 ---
 

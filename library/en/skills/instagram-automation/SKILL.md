@@ -9,8 +9,8 @@ description: >-
   manage media, get insights, and publishing limits. Always search tools first
   for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:instagram
 category: social-media
 ---
 

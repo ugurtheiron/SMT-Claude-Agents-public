@@ -1,0 +1,7 @@
+{
+  "name": "mcp-engineering-team",
+  "description": "Design, build, review and conformance-test Model Context Protocol servers: tool-surface architecture, scaffolded implementation, protocol and description-quality review, and live-client integration tests behind a compliance gate.",
+  "author": {
+    "name": "SafeMate AI Hub"
+  }
+}

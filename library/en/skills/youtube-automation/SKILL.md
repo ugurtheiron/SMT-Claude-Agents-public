@@ -9,8 +9,8 @@ description: >-
   playlists, search content, get analytics, and handle comments. Always search
   tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:youtube
 category: social-media
 ---
 

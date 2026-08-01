@@ -5,7 +5,7 @@ source:
     https://github.com/davepoon/buildwithclaude/blob/main/plugins/all-commands/commands/commit.md
 description: Create well-formatted git commits with conventional commit messages and emoji
 category: version-control-git
-allowed-tools: 'Bash, Read, Glob'
+allowedTools: 'Bash, Read, Glob'
 ---
 
 # Claude Command: Commit

@@ -1,0 +1,7 @@
+{
+  "name": "security-audit-team",
+  "description": "Parallel read-only auditors for codebase, API surface and MCP configuration, a log-mining detective, and an independent verifier that kills false positives — producing a severity-ranked remediation report.",
+  "author": {
+    "name": "SafeMate AI Hub"
+  }
+}

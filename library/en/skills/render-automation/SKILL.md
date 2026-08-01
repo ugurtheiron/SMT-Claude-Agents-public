@@ -8,8 +8,8 @@ description: >-
   Automate Render tasks via Rube MCP (Composio): services, deployments,
   projects. Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:render
 category: devops
 ---
 

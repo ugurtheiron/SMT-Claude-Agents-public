@@ -8,8 +8,8 @@ description: >-
   Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks,
   comments, users. Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:notion
 category: storage-docs
 ---
 

@@ -9,8 +9,8 @@ description: >-
   emails, manage templates, monitor delivery stats and bounces. Always search
   tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:postmark
 category: email
 ---
 

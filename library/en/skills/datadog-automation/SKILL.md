@@ -9,8 +9,8 @@ description: >-
   manage monitors/dashboards, create events and downtimes. Always search tools
   first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:datadog
 category: devops
 ---
 

@@ -9,8 +9,8 @@ description: >-
   availability, configure webhooks, and handle teams. Always search tools first
   for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:cal-com
 category: automation
 ---
 

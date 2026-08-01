@@ -8,8 +8,8 @@ description: >-
   Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums,
   language and timezone lookups. Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:make
 category: automation
 ---
 

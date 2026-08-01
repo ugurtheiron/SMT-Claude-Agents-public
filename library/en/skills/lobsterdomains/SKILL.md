@@ -47,5 +47,4 @@ Generate an API key at https://lobsterdomains.xyz/api-keys (requires Ethereum wa
 ## Links
 
 - Website: https://lobsterdomains.xyz
-- ClawHub: https://clawhub.ai/esokullu/lobsterdomains
 - Full docs: https://lobsterdomains.xyz/skills.md

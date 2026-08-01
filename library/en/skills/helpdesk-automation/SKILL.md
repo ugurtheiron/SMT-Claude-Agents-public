@@ -9,8 +9,7 @@ description: >-
   use canned responses, and configure custom fields. Always search tools first
   for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
 category: customer-support
 ---
 

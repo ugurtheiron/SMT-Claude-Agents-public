@@ -8,8 +8,8 @@ description: >-
   Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections,
   teams, workspaces. Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:asana
 category: project-management
 ---
 

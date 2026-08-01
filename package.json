@@ -1,0 +1,15 @@
+{
+  "name": "smt-claude-agents-library",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SMT Claude Agents public library — validation and plugin-marketplace tooling",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build:plugins": "node scripts/build-plugins.mjs",
+    "check:plugins": "node scripts/build-plugins.mjs --check"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}

@@ -9,8 +9,8 @@ description: >-
   manage templates, upload media, and handle contacts. Always search tools first
   for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:whatsapp
 category: communication
 ---
 

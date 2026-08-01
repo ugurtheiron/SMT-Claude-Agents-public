@@ -8,8 +8,8 @@ description: >-
   Automate Canva tasks via Rube MCP (Composio): designs, exports, folders, brand
   templates, autofill. Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:canva
 category: design
 ---
 

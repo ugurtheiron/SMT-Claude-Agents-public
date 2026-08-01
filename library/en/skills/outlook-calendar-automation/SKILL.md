@@ -9,8 +9,8 @@ description: >-
   attendees, find meeting times, and handle invitations. Always search tools
   first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:outlook-calendar
 category: automation
 ---
 

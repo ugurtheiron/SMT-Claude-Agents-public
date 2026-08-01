@@ -9,8 +9,8 @@ description: >-
   spreadsheets) via Rube MCP (Composio). Read/write data, manage tabs, apply
   formatting, and search rows programmatically.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:googlesheets
 category: business-productivity
 ---
 

@@ -9,8 +9,8 @@ description: >-
   signatures, document management. Always search tools first for current
   schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:docusign
 category: business-productivity
 ---
 

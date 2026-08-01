@@ -9,8 +9,8 @@ description: >-
   management via Rube MCP (Composio). Create events, find free slots, manage
   attendees, and list calendars programmatically.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:google-calendar
 category: automation
 ---
 

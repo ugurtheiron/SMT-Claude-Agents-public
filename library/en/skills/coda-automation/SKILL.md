@@ -9,8 +9,8 @@ description: >-
   formulas, permissions, and publishing. Always search tools first for current
   schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:coda
 category: project-management
 ---
 

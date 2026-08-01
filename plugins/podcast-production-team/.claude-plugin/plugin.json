@@ -1,0 +1,7 @@
+{
+  "name": "podcast-production-team",
+  "description": "Audio in, publish package out: transcription in an isolated context, chapter and quote extraction, SEO titles, show notes and tags, with an audio quality check — the textbook use of subagent context isolation.",
+  "author": {
+    "name": "SafeMate AI Hub"
+  }
+}

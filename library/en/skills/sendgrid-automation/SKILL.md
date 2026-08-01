@@ -9,8 +9,8 @@ description: >-
   contacts/lists, sender identities, templates, and analytics via Rube MCP
   (Composio). Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:sendgrid
 category: email
 ---
 

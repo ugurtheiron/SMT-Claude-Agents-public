@@ -8,8 +8,8 @@ description: >-
   Automate Figma tasks via Rube MCP (Composio): files, components, design
   tokens, comments, exports. Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:figma
 category: design
 ---
 

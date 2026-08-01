@@ -8,8 +8,8 @@ description: >-
   Automate Intercom tasks via Rube MCP (Composio): conversations, contacts,
   companies, segments, admins. Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:intercom
 category: customer-support
 ---
 

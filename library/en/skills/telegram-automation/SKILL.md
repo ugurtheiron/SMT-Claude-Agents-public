@@ -9,8 +9,8 @@ description: >-
   share photos/documents, and handle bot commands. Always search tools first for
   current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:telegram
 category: communication
 ---
 

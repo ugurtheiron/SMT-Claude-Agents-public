@@ -8,8 +8,8 @@ description: >-
   Automate Twitter/X tasks via Rube MCP (Composio): posts, search, users,
   bookmarks, lists, media. Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:twitter
 category: social-media
 ---
 

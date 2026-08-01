@@ -1,0 +1,7 @@
+{
+  "name": "devops-sre-team",
+  "description": "Conditional incident-response chain and infrastructure build pipeline in one plugin: triage, parallel log/metric investigation, root-cause synthesis, reviewed Terraform and a prevention step so the same failure never pages twice.",
+  "author": {
+    "name": "SafeMate AI Hub"
+  }
+}

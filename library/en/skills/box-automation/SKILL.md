@@ -9,8 +9,8 @@ description: >-
   folder management, sharing, collaborations, and metadata queries via Rube MCP
   (Composio). Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:box
 category: storage-docs
 ---
 

@@ -9,8 +9,8 @@ description: >-
   via Rube MCP (Composio). Send messages, search conversations, manage
   channels/users, and react to messages programmatically.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:slack
 category: communication
 ---
 

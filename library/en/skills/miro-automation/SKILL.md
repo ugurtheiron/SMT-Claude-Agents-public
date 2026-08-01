@@ -8,8 +8,8 @@ description: >-
   Automate Miro tasks via Rube MCP (Composio): boards, items, sticky notes,
   frames, sharing, connectors. Always search tools first for current schemas.
 requires:
-  mcp:
-    - rube
+  - mcp:rube
+  - connection:miro
 category: design
 ---
 
