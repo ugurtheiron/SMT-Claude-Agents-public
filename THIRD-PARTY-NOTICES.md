@@ -28,13 +28,13 @@ license file are shipped here, not the upstream helper files (scripts, reference
 | `library/en/skills/slack-gif-creator` | [anthropics/skills](https://github.com/anthropics/skills/tree/83291af582d21f5418854fa628a76686203c2f7a/slack-gif-creator) | Apache-2.0 | `LICENSE.txt` copied verbatim from upstream. Body identical to upstream revision `83291af` (2025-10-16); upstream has since been rewritten. Verified. |
 | `library/en/skills/artifacts-builder` | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder) (renamed upstream to `web-artifacts-builder`) | Apache-2.0 | `LICENSE.txt` copied verbatim from upstream `web-artifacts-builder`. Body identical to upstream except the top-level heading. Verified. |
 | `library/en/skills/resemble-detect` | [resemble-ai/detect-skill](https://github.com/resemble-ai/detect-skill) | Apache-2.0 | `LICENSE` copied verbatim from upstream. Body identical to upstream revision `d717dc1` (2026-04-09); upstream has since been extended. Verified. |
-| `library/en/skills/twitter-algorithm-optimizer` | Declared AGPL-3.0 in its frontmatter. Body is identical to [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/twitter-algorithm-optimizer), which carries no license file. | AGPL-3.0 | `LICENSE` contains the official GNU AGPL-3.0 text, added to match the declared license. Original author and license grant not verified. |
 
 ## Skills whose license text could not be established
 
 | Component | Upstream source | Declared license | Notes |
 |---|---|---|---|
 | `library/en/skills/skill-share` | Body is identical to [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/skill-share), which carries no license file. | "Complete terms in LICENSE.txt" (file does not exist) | Source not verified. No license text was added. |
+| `library/en/skills/twitter-algorithm-optimizer` | Body is identical to [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/twitter-algorithm-optimizer), which carries no license file. | "AGPL-3.0 (referencing Twitter's algorithm source)" | Frontmatter declares AGPL-3.0 (with a reference to twitter/the-algorithm), but the grant could not be verified, so no license text was added. Source not verified. |
 
 ## Generated copies
 
