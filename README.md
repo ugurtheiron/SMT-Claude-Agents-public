@@ -111,4 +111,6 @@ buildwithclaude community.
 
 ## License
 
-MIT — see [LICENSE](./LICENSE).
+Repository content is MIT — see [LICENSE](./LICENSE). Third-party skills are
+distributed under their own licenses, included in each skill's folder; see
+[THIRD-PARTY-NOTICES.md](./THIRD-PARTY-NOTICES.md).
