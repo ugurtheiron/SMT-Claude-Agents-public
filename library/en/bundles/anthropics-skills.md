@@ -2,7 +2,7 @@
 id: smt-bundle-anthropics-skills
 name: Anthropic Agent Skills
 description: >-
-  Anthropic's official Agent Skills repository: first-party skills such as skill-creator, mcp-builder, webapp-testing and the docx/pdf/pptx/xlsx document skills, plus the Agent Skills spec and an authoring template. Ships its own marketplace manifest, so it installs directly into Claude Code.
+  Anthropic's official Agent Skills repository: first-party skills such as skill-creator, mcp-builder and webapp-testing, plus the Agent Skills spec and an authoring template. Ships its own marketplace manifest, so it installs directly into Claude Code.
 category: marketplace
 kind: marketplace
 itemTypes:
