@@ -49,7 +49,7 @@ for (const file of teamFiles) {
             // Ship license/notice files with the skill so redistributed bundles keep their terms.
             const skillDir = dirname(src);
             for (const f of readdirSync(skillDir).sort()) {
-                if (/^(LICENSE|NOTICE)/i.test(f) && statSync(join(skillDir, f)).isFile()) {
+                if (/^(LICENSE|NOTICE)([.-].*)?$/i.test(f) && statSync(join(skillDir, f)).isFile()) {
                     out.set(`plugins/${plugin}/skills/${m[1]}/${f}`, readFileSync(join(skillDir, f), 'utf8'));
                 }
             }
