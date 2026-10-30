@@ -6,7 +6,8 @@
 //
 // Source of truth: library/en/teams/<slug>.md. Each team becomes
 // plugins/<plugin>/ with .claude-plugin/plugin.json plus verbatim copies of
-// its member agents (agents/<slug>.md) and skills (skills/<slug>/SKILL.md).
+// its member agents (agents/<slug>.md) and skills (skills/<slug>/SKILL.md plus
+// any LICENSE*/NOTICE* files from the skill's source folder).
 // MCP-server members are dependency metadata only and are not copied.
 // Never edit plugins/ or .claude-plugin/marketplace.json by hand.
 
@@ -45,6 +46,13 @@ for (const file of teamFiles) {
             const src = join(root, `library/en/skills/${m[1]}/SKILL.md`);
             if (!existsSync(src)) fail(`${file}: member ${id} → library/en/skills/${m[1]}/SKILL.md not found`);
             out.set(`plugins/${plugin}/skills/${m[1]}/SKILL.md`, readFileSync(src, 'utf8'));
+            // Ship license/notice files with the skill so redistributed bundles keep their terms.
+            const skillDir = dirname(src);
+            for (const f of readdirSync(skillDir).sort()) {
+                if (/^(LICENSE|NOTICE)([.-].*)?$/i.test(f) && statSync(join(skillDir, f)).isFile()) {
+                    out.set(`plugins/${plugin}/skills/${m[1]}/${f}`, readFileSync(join(skillDir, f), 'utf8'));
+                }
+            }
             copied.push(id);
         }
         // mcp-server / other member types: dependency metadata only.
