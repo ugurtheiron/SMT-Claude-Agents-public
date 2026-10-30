@@ -1,0 +1,34 @@
+name: Bug report
+description: Report a broken resource, a failing validation or a problem with the generated plugins.
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: resource
+    attributes:
+      label: Affected resource or script
+      description: Resource id or path, for example `smt-skill-example`, `library/en/teams/<slug>.md` or `scripts/validate.mjs`.
+    validations:
+      required: false
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Commands you ran and their output, for example the output of `npm run validate` or `npm run check:plugins`.
+      render: shell
+    validations:
+      required: false
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Node.js version, OS and, for plugin problems, Claude Code version.
+    validations:
+      required: false
