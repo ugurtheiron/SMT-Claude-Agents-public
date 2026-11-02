@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Auto-detect text files, and always check them out with LF line endings
+# regardless of the contributor's core.autocrlf / core.eol settings
+# (generated output must be byte-identical on every platform).
+* text=auto eol=lf
