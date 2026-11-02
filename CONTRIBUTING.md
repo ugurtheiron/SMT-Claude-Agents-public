@@ -4,6 +4,10 @@ Thanks for adding to the library! Every resource is a single markdown file with
 YAML frontmatter. Keep it simple; the scraper is strict but forgiving if you
 follow the spec below.
 
+Everyone taking part is expected to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+Do not open public issues for security problems; follow [SECURITY.md](SECURITY.md)
+instead.
+
 ## File layout
 
 | Type         | Path                                      |
