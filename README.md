@@ -53,13 +53,6 @@ npm run check:plugins   # generated plugins/ in sync with teams
 npm run build:plugins   # regenerate plugins/ + marketplace.json after editing a team
 ```
 
-On Windows, clone with LF line endings so `check:plugins` does not report
-false drift (CRLF checkouts change the generated output):
-
-```
-git clone -c core.autocrlf=false -c core.eol=lf https://github.com/ugurtheiron/SMT-Claude-Agents-public.git
-```
-
 ## How it works
 
 This repo is the **source of truth** for the library. Each resource lives as a
